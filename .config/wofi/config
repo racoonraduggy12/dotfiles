@@ -1,0 +1,10 @@
+dynamic_lines=true
+insensitive=true
+single_click=false
+location=bottom_right
+x=-100
+y=-132
+width=42%
+style=/home/daniel/.config/wofi/style.css
+allow_images=true
+image_size=9

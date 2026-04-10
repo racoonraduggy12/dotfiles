@@ -1,0 +1,37 @@
+window {
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 14px;
+}
+
+/* Make inner containers transparent so corners show correctly */
+#outer-box,
+#inner-box,
+#scroll {
+background-color: transparent;
+}
+
+/* Search bar */
+entry {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffb692;
+}
+
+/* App entries */
+element {
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: #ffb692;
+}
+
+/* Teal highlight on selection */
+#entry:selected {
+    background-color: rgba(84,33,3, 0.35); /* teal */
+    color: #e6beac;
+
+
+/* Optional: icon spacing */
+image {
+    margin-right: 8px;
+}

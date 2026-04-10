@@ -1,0 +1,39 @@
+/* Window Base */
+window {
+    background-color: rgba(0, 0, 0, 0.85); /* leave alpha as-is or use a placeholder */
+    color: #ffb692;
+    border-radius: 14px;
+}
+
+/* Buttons */
+button {
+    color: #ffb692;
+    background-color: transparent;
+    border: 1px solid #d0c890;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.30);
+    border: 2px solid #ffb692;
+}
+button:active {
+    background-color: rgba(0, 0, 0, 0.97);
+    border: 3px solid #ffffff; /* maybe keep fixed white for contrast */
+}
+
+/* Labels & Headerbars */
+label {
+    color: #ffb692;
+    background-color: transparent
+}
+headerbar {
+    color: #ffb692;
+    background-color: rgba(0, 0, 0, 0.85)
+}
+
+/* App entries */
+element {
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: #e6beac;
+}

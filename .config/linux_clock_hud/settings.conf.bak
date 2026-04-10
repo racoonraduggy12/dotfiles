@@ -1,0 +1,4 @@
+[Clock]
+time_format = %H:%M:%S
+style = color: rgb(0, 255, 156); background: none
+

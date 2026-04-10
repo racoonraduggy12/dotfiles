@@ -1,0 +1,79 @@
+/* Set pure black 95% background */
+window{
+    background-color: rgba(0,0,0,0.85);
+    color: #00ff9c; /* spring green text */
+}
+
+/* Scrollbars, selections, etc. */
+headerbar {
+    background-color: rgba(0,0,0,0.85)
+}
+/* Global text selection */
+*:selected {
+    background-color: rgba(0,256,156,0.35);   /* spring green */
+    color: #ffffff;              /* white text */
+}
+
+/* Make entry and textview backgrounds match */
+entry, textview {
+    background-color: rgba(0,0,0,0.85);
+    color: #00ff9c;
+}
+textview text:selected,
+entry:selected {
+    background-color: rgba(0,256,156,0.35);
+    color: #ffffff;
+}
+/* Buttons, labels, headers */
+label, button {
+    color: #00ff9c;
+    background-color: rgba(0,0,0,0.0);
+}
+button {
+    border: 1px solid #00ff52;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.30); /* darker than normal */
+    border: 2px solid #00ff52;
+}
+button:active {
+    background-color: rgba(0, 0, 0, 0.97); /* darker than normal */
+    border: 3px solid #ffffff;
+}
+window {
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 14px;
+}
+
+/* Make inner containers transparent so corners show correctly */
+#outer-box,
+#inner-box,
+#scroll {
+background-color: transparent;
+}
+
+/* Search bar */
+entry {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #cdd6f4;
+}
+
+/* App entries */
+element {
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: #cdd6f4 ;
+}!important
+
+/* Teal highlight on selection */
+#entry:selected {
+background-color: rgba(0, 255, 156, 0.35); /* teal */
+color: #00ffba;
+
+
+/* Optional: icon spacing */
+image {
+    margin-right: 8px;
+}

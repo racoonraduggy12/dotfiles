@@ -1,0 +1,105 @@
+/* ============================= */
+/* Window Base */
+/* ============================= */
+
+window {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #ffb692;
+    border-radius: 14px;
+}
+
+/* ============================= */
+/* Global Text Selection (GTK4) */
+/* ============================= */
+
+*:selected,
+selection {
+    background-color: rgba(255,182,146,0.35);
+    color: #ffffff;
+}
+
+textview text:selected,
+entry:selected {
+    background-color: rgba(230,190,172,0.35);
+    color: #ffffff;
+}
+
+/* ============================= */
+/* Text Inputs */
+/* ============================= */
+
+entry,
+textview {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #ffb692;
+}
+
+entry {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* ============================= */
+/* Buttons */
+/* ============================= */
+
+button {
+    color: ;
+    background-color: transparent;
+    border: 1px solid #d0c890;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.30);
+    border: 2px solid #ffb692;
+}
+
+button:active {
+    background-color: rgba(0, 0, 0, 0.97);
+    border: 3px solid #ffffff;
+}
+
+/* ============================= */
+/* Labels & Headerbars */
+/* ============================= */
+
+label,
+headerbar {
+    color: #ffb692;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* ============================= */
+/* Transparent Containers */
+/* ============================= */
+
+#outer-box,
+#inner-box,
+#scroll {
+    background-color: transparent;
+}
+
+/* ============================= */
+/* App Entries */
+/* ============================= */
+
+element {
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: #e6beac;
+}
+
+/* ============================= */
+/* Icons */
+/* ============================= */
+
+GtkTextView,
+gtk-widget {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #ffb692;
+}
+
+image {
+    margin-right: 8px;
+}

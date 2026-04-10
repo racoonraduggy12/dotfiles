@@ -1,0 +1,13 @@
+# My custom btop theme
+[general]
+# general settings (unused by btop for now)
+
+[colors]
+cpu=#00fd51        # Orange CPU bars
+mem=#32CD32        # Lime green RAM
+swap=#8A2BE2       # Blue-violet swap
+net=#00FFFF        # Cyan network
+proc_cpu=#FFD700   # Gold process CPU highlight
+proc_mem=#FF69B4   # Hot pink process memory highlight
+proc_pid=#FFFFFF   # White PID
+proc_user=#AAAAAA  # Grey user
