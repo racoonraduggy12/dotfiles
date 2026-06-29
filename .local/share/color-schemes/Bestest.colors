@@ -3,27 +3,27 @@
 /* ============================= */
 
 [Colors:Button]
-BackgroundAlternate=26,18,14
+BackgroundAlternate=16,21,16
 BackgroundNormal=0,0,0
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,182,146
+ForegroundActive=153,212,162
 ForegroundInactive=160,160,160
-ForegroundLink=208,200,144
+ForegroundLink=162,206,216
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
-ForegroundNormal=255,182,146
+ForegroundNormal=153,212,162
 ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [Colors:Selection]
-BackgroundAlternate=208,200,144
-BackgroundNormal=208,200,144
+BackgroundAlternate=162,206,216
+BackgroundNormal=162,206,216
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,182,146
+ForegroundActive=153,212,162
 ForegroundInactive=160,160,160
-ForegroundLink=208,200,144
+ForegroundLink=162,206,216
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
@@ -35,9 +35,9 @@ BackgroundAlternate=0,0,0
 BackgroundNormal=0,0,0
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,182,146
+ForegroundActive=153,212,162
 ForegroundInactive=225,225,225
-ForegroundLink=208,200,144
+ForegroundLink=162,206,216
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
@@ -46,15 +46,15 @@ ForegroundVisited=255,102,102
 
 [Colors:View]
 BackgroundAlternate=5,5,5
-BackgroundNormal=26,18,14
+BackgroundNormal=16,21,16
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,182,146
+ForegroundActive=153,212,162
 ForegroundInactive=160,160,160
-ForegroundLink=208,200,144
+ForegroundLink=162,206,216
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
-ForegroundNormal=255,182,146
+ForegroundNormal=153,212,162
 ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
@@ -63,18 +63,18 @@ BackgroundAlternate=56,60,74
 BackgroundNormal=0,0,0
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=255,182,146
+ForegroundActive=153,212,162
 ForegroundInactive=160,160,160
-ForegroundLink=208,200,144
+ForegroundLink=162,206,216
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
-ForegroundNormal=255,182,146
+ForegroundNormal=153,212,162
 ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [General]
-ColorScheme=
-Name=
+ColorScheme=Bestest
+Name=Bestest
 shadeSortColumn=true
 
 [KDE]
@@ -83,9 +83,9 @@ contrast=0
 frameContrast=1
 
 [WM]
-activeBackground=26,18,14
-activeBlend=26,18,14
+activeBackground=16,21,16
+activeBlend=16,21,16
 activeForeground=255,255,255
-inactiveBackground=26,18,14
-inactiveBlend=26,18,14
+inactiveBackground=16,21,16
+inactiveBlend=16,21,16
 inactiveForeground=200,200,200

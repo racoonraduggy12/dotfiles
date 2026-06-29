@@ -1,20 +1,20 @@
 /* Window Base */
 window {
     background-color: rgba(0, 0, 0, 0.85); /* leave alpha as-is or use a placeholder */
-    color: #ffb692;
+    color: #99d4a2;
     border-radius: 14px;
 }
 
 /* Buttons */
 button {
-    color: #ffb692;
+    color: #99d4a2;
     background-color: transparent;
-    border: 1px solid #d0c890;
+    border: 1px solid #a2ced8;
     border-radius: 8px;
 }
 button:hover {
     background-color: rgba(0, 0, 0, 0.30);
-    border: 2px solid #ffb692;
+    border: 2px solid #99d4a2;
 }
 button:active {
     background-color: rgba(0, 0, 0, 0.97);
@@ -23,11 +23,11 @@ button:active {
 
 /* Labels & Headerbars */
 label {
-    color: #ffb692;
+    color: #99d4a2;
     background-color: transparent
 }
 headerbar {
-    color: #ffb692;
+    color: #99d4a2;
     background-color: rgba(0, 0, 0, 0.85)
 }
 
@@ -35,5 +35,5 @@ headerbar {
 element {
     padding: 6px 10px;
     border-radius: 8px;
-    color: #e6beac;
+    color: #b7ccb7;
 }

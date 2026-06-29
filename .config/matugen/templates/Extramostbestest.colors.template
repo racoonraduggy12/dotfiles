@@ -73,8 +73,8 @@ ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [General]
-ColorScheme={{ colorscheme_name }}
-Name={{ colorscheme_name }}
+ColorScheme=Extramostbestest
+Name=Extramostbestest
 shadeSortColumn=true
 
 [KDE]

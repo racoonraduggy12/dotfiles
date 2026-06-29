@@ -1,5 +1,5 @@
 window {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.50);
     border-radius: 14px;
 }
 
@@ -15,20 +15,20 @@ entry {
     padding: 8px;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: #ffb692;
+    color: #99d4a2;
 }
 
 /* App entries */
 element {
     padding: 6px 10px;
     border-radius: 8px;
-    color: #ffb692;
+    color: #99d4a2;
 }
 
 /* Teal highlight on selection */
 #entry:selected {
-    background-color: rgba(84,33,3, 0.35); /* teal */
-    color: #e6beac;
+    background-color: rgba(0,57,24, 0.35); /* teal */
+    color: #b7ccb7;
 
 
 /* Optional: icon spacing */

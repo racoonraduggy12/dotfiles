@@ -89,8 +89,8 @@ ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [General]
-ColorScheme=KvArcDark
-Name=bestest
+ColorScheme=Bestest
+Name=Bestest
 shadeSortColumn=true
 
 [KDE]

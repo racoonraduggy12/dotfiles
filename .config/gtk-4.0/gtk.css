@@ -4,7 +4,7 @@
 
 window {
     background-color: rgba(0, 0, 0, 0.85);
-    color: #ffb692;
+    color: #99d4a2;
     border-radius: 14px;
 }
 
@@ -14,13 +14,13 @@ window {
 
 *:selected,
 selection {
-    background-color: rgba(255,182,146,0.35);
+    background-color: rgba(153,212,162,0.35);
     color: #ffffff;
 }
 
 textview text:selected,
 entry:selected {
-    background-color: rgba(230,190,172,0.35);
+    background-color: rgba(183,204,183,0.35);
     color: #ffffff;
 }
 
@@ -31,7 +31,7 @@ entry:selected {
 entry,
 textview {
     background-color: rgba(0, 0, 0, 0.85);
-    color: #ffb692;
+    color: #99d4a2;
 }
 
 entry {
@@ -46,13 +46,13 @@ entry {
 button {
     color: ;
     background-color: transparent;
-    border: 1px solid #d0c890;
+    border: 1px solid #a2ced8;
     border-radius: 8px;
 }
 
 button:hover {
     background-color: rgba(0, 0, 0, 0.30);
-    border: 2px solid #ffb692;
+    border: 2px solid #99d4a2;
 }
 
 button:active {
@@ -66,7 +66,7 @@ button:active {
 
 label,
 headerbar {
-    color: #ffb692;
+    color: #99d4a2;
     background-color: rgba(0, 0, 0, 0.85);
 }
 
@@ -87,7 +87,7 @@ headerbar {
 element {
     padding: 6px 10px;
     border-radius: 8px;
-    color: #e6beac;
+    color: #b7ccb7;
 }
 
 /* ============================= */
@@ -97,7 +97,7 @@ element {
 GtkTextView,
 gtk-widget {
     background-color: rgba(0, 0, 0, 0.85);
-    color: #ffb692;
+    color: #99d4a2;
 }
 
 image {
