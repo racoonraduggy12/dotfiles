@@ -367,7 +367,7 @@ windowrule = opacity 1.0, match:class blender, float 0
 windowrule = float 0, match:class xdg-desktop-portal-gtk
 windowrule = opacity 1.0, match:class Tor Browser
 windowrule = opacity 0.75, match:class discord
-
+windowrule = match:title Steam Input On-screen Keyboard, move 320 720
 
 # Set background 2 seconds after startup
 exec-once = exec-once = sleep 1 && ~/.config/hypr/background-reseter.sh && source ~/.config/hypr/background-setter.sh
