@@ -1,28 +1,39 @@
 background_opacity 0.5
 
 
-
+# BEGIN_KITTY_FONTS
 font_family      family="Terminess Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
+# END_KITTY_FONTS
 allow_remote_control yes
-
-foreground #00ff52
+foreground #857af5
 
 color0  #000000
-color1  #00ff52
-color2  #00ff59
-color3  #00ff5f
-color4  #00ff65
-color5  #00ff6b
-color6  #00ff71
-color7  #00ff76
-color8  #00ff7b
-color9  #00ff80
-color10  #00ff85
-color11  #00ff8a
-color12  #00ff8f
-color13  #00ff93
-color14  #00ff98
-color15  #00ff9c
+color1  #c6c0ff
+color2  #857af5
+color3  #928f99
+color4  #000000
+color5  #ebb8cf
+color6  #131318
+color7  #2e295f
+color8  #131318
+color9  #c6c0ff
+color10  #c8c3dc
+color11  #928f99
+color12  #000000
+color13  #ebb8cf
+color14  #131318
+color15  #857af5
+# color8  #00ff20
+# color9  #1affaa
+# color10 #33ffb3
+# color11 #4dffbd
+# color12 #66ffc6
+# color13 #80ffd0
+# olor14 #99ffd9
+# color15 #b3ffe3
+# colors.source_color.default.color
+remember_window_size  no
+confirm_os_window_close 0

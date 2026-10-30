@@ -1,10 +1,9 @@
 /* ============================= */
 /* Window Base */
 /* ============================= */
-
 window {
-    background-color: rgba(0, 0, 0, 0.85);
-    color: #99d4a2;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #857af5;
     border-radius: 14px;
 }
 
@@ -14,13 +13,13 @@ window {
 
 *:selected,
 selection {
-    background-color: rgba(153,212,162,0.35);
+    background-color: rgba(133,122,245,0.35);
     color: #ffffff;
 }
 
 textview text:selected,
 entry:selected {
-    background-color: rgba(183,204,183,0.35);
+    background-color: rgba(46,195,220,0.35);
     color: #ffffff;
 }
 
@@ -30,8 +29,8 @@ entry:selected {
 
 entry,
 textview {
-    background-color: rgba(0, 0, 0, 0.85);
-    color: #99d4a2;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #857af5;
 }
 
 entry {
@@ -46,13 +45,13 @@ entry {
 button {
     color: ;
     background-color: transparent;
-    border: 1px solid #a2ced8;
+    border: 1px solid #c6c0ff;
     border-radius: 8px;
 }
 
 button:hover {
     background-color: rgba(0, 0, 0, 0.30);
-    border: 2px solid #99d4a2;
+    border: 2px solid #857af5;
 }
 
 button:active {
@@ -66,8 +65,8 @@ button:active {
 
 label,
 headerbar {
-    color: #99d4a2;
-    background-color: rgba(0, 0, 0, 0.85);
+    color: #857af5;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* ============================= */
@@ -87,7 +86,7 @@ headerbar {
 element {
     padding: 6px 10px;
     border-radius: 8px;
-    color: #b7ccb7;
+    color: #2e295f;
 }
 
 /* ============================= */
@@ -96,8 +95,8 @@ element {
 
 GtkTextView,
 gtk-widget {
-    background-color: rgba(0, 0, 0, 0.85);
-    color: #99d4a2;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #857af5;
 }
 
 image {

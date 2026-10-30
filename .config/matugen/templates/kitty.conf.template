@@ -8,16 +8,16 @@ italic_font      auto
 bold_italic_font auto
 # END_KITTY_FONTS
 allow_remote_control yes
-foreground {{ colors.on_primary.default.color }}
+foreground {{ colors.source_color.default.color }}
 
 color0  #000000
 color1  {{ colors.primary.default.color }}
-color2  {{ colors.secondary.default.color }}
+color2  {{ colors.source_color.default.color }}
 color3  {{ colors.outline.default.color }}
 color4  {{ colors.shadow.default.color }}
 color5  {{ colors.tertiary.default.color }}
 color6  {{ colors.surface.default.color }}
-color7  {{ colors.source_color.default.color }}
+color7  {{ colors.on_primary.default.color }}
 color8  {{ colors.background.default.color }}
 color9  {{ colors.primary.default.color }}
 color10  {{ colors.secondary.default.color }}
@@ -34,3 +34,6 @@ color15  {{ colors.source_color.default.color }}
 # color13 #80ffd0
 # olor14 #99ffd9
 # color15 #b3ffe3
+# colors.source_color.default.color
+remember_window_size  no
+confirm_os_window_close 0

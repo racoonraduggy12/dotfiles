@@ -5,8 +5,8 @@
 #sleep 0.1
 /usr/bin/kitty --class scriptkitty -e btop &
 sleep 0.1
-/usr/bin/kitty --class scriptkitty -e cmatrix -b &
-sleep 0.1
+#/usr/bin/kitty --class scriptkitty -e cmatrix -b &
+#sleep 0.1
 rannum=$((1 + $RANDOM % 3))
 if [ $rannum == 1 ]; then
     /usr/bin/kitty --class scriptkitty -e pipes-rs &

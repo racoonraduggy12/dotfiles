@@ -5,14 +5,14 @@ with open("/home/daniel/palette.json") as f:
     palette = json.load(f)["colors"]
 
 # Load template
-with open("/home/daniel/.config/matugen/templates/hyprland.conf.template") as f:
+with open("/home/daniel/.config/matugen/templates/colors.lua.template") as f:
     template = jinja2.Template(f.read())
 
 # Render template with palette
 rendered = template.render(colors=palette)
 
 # Write config
-with open("/home/daniel/.config/hypr/hyprland.conf", "w") as f:
+with open("/home/daniel/.config/hypr/conf/colors.lua", "w") as f:
     f.write(rendered)
 
 with open("/home/daniel/palette.json") as f:
@@ -114,4 +114,16 @@ rendered = template.render(colors=palette)
 # Write config
 with open("/home/daniel/.config/linux_clock_hud/settings.conf", "w") as f:
     f.write(rendered)
+
+with open("/home/daniel/.config/matugen/templates/Vim Dark2.theme.template") as f:
+    template = jinja2.Template(f.read())
+
+# Render template with palette
+rendered = template.render(colors=palette)
+
+# Write config
+with open("/home/daniel/.local/share/org.kde.syntax-highlighting/themes/Vim Dark2.theme", "w") as f:
+    f.write(rendered)
+
+
 

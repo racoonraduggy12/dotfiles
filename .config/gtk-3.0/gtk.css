@@ -1,20 +1,21 @@
 /* Window Base */
 window {
-    background-color: rgba(0, 0, 0, 0.85); /* leave alpha as-is or use a placeholder */
-    color: #99d4a2;
+    background-color: rgba(0, 0, 0, 0.5); /* leave alpha as-is or use a placeholder */
+    color: #857af5;
     border-radius: 14px;
 }
 
 /* Buttons */
 button {
-    color: #99d4a2;
-    background-color: transparent;
-    border: 1px solid #a2ced8;
+    color: #857af5;
+    background-color: #00000000;
+    background-image: none;
+    border: 1px solid #857af5;
     border-radius: 8px;
 }
 button:hover {
     background-color: rgba(0, 0, 0, 0.30);
-    border: 2px solid #99d4a2;
+    border: 2px solid #2e295f;
 }
 button:active {
     background-color: rgba(0, 0, 0, 0.97);
@@ -23,17 +24,42 @@ button:active {
 
 /* Labels & Headerbars */
 label {
-    color: #99d4a2;
-    background-color: transparent
+    color: #857af5;
+    background-color: #00000000;
 }
 headerbar {
-    color: #99d4a2;
-    background-color: rgba(0, 0, 0, 0.85)
+    color: #857af5;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* App entries */
 element {
     padding: 6px 10px;
     border-radius: 8px;
-    color: #b7ccb7;
+    color: #857af5;
+}
+
+textview,
+textview text {
+    background-color: #00000000;
+    background-image: none;
+    border: 1px solid #857af5;
+    border-radius: 8px;
+}
+
+textview,
+textview.view,
+textview text,
+textview.view text {
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    color: #857af5;
+}
+
+scrolledwindow,
+scrolledwindow viewport {
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
 }

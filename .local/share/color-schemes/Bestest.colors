@@ -3,27 +3,27 @@
 /* ============================= */
 
 [Colors:Button]
-BackgroundAlternate=16,21,16
+BackgroundAlternate=133,122,245
 BackgroundNormal=0,0,0
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=153,212,162
+ForegroundActive=46,41,95
 ForegroundInactive=160,160,160
-ForegroundLink=162,206,216
+ForegroundLink=198,192,255
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
-ForegroundNormal=153,212,162
+ForegroundNormal=46,41,95
 ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [Colors:Selection]
-BackgroundAlternate=162,206,216
-BackgroundNormal=162,206,216
+BackgroundAlternate=198,192,255
+BackgroundNormal=198,192,255
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=153,212,162
+ForegroundActive=46,41,95
 ForegroundInactive=160,160,160
-ForegroundLink=162,206,216
+ForegroundLink=198,192,255
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
@@ -35,9 +35,9 @@ BackgroundAlternate=0,0,0
 BackgroundNormal=0,0,0
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=153,212,162
+ForegroundActive=46,41,95
 ForegroundInactive=225,225,225
-ForegroundLink=162,206,216
+ForegroundLink=198,192,255
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
@@ -46,15 +46,15 @@ ForegroundVisited=255,102,102
 
 [Colors:View]
 BackgroundAlternate=5,5,5
-BackgroundNormal=16,21,16
+BackgroundNormal=133,122,245
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=153,212,162
+ForegroundActive=46,41,95
 ForegroundInactive=160,160,160
-ForegroundLink=162,206,216
+ForegroundLink=198,192,255
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
-ForegroundNormal=153,212,162
+ForegroundNormal=46,41,95
 ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
@@ -63,12 +63,12 @@ BackgroundAlternate=56,60,74
 BackgroundNormal=0,0,0
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
-ForegroundActive=153,212,162
+ForegroundActive=0,0,0
 ForegroundInactive=160,160,160
-ForegroundLink=162,206,216
+ForegroundLink=198,192,255
 ForegroundNegative=240,1,1
 ForegroundNeutral=255,221,0
-ForegroundNormal=153,212,162
+ForegroundNormal=0,0,0
 ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
@@ -83,9 +83,9 @@ contrast=0
 frameContrast=1
 
 [WM]
-activeBackground=16,21,16
-activeBlend=16,21,16
+activeBackground=133,122,245
+activeBlend=133,122,245
 activeForeground=255,255,255
-inactiveBackground=16,21,16
-inactiveBlend=16,21,16
+inactiveBackground=133,122,245
+inactiveBlend=133,122,245
 inactiveForeground=200,200,200

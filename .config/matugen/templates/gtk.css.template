@@ -1,20 +1,21 @@
 /* Window Base */
 window {
-    background-color: rgba(0, 0, 0, 0.85); /* leave alpha as-is or use a placeholder */
-    color: {{ colors.primary.default.color }};
+    background-color: rgba(0, 0, 0, 0.5); /* leave alpha as-is or use a placeholder */
+    color: {{ colors.source_color.default.color }};
     border-radius: 14px;
 }
 
 /* Buttons */
 button {
-    color: {{ colors.primary.default.color }};
-    background-color: transparent;
-    border: 1px solid {{ colors.tertiary.default.color }};
+    color: {{ colors.source_color.default.color }};
+    background-color: #00000000;
+    background-image: none;
+    border: 1px solid {{ colors.source_color.default.color }};
     border-radius: 8px;
 }
 button:hover {
     background-color: rgba(0, 0, 0, 0.30);
-    border: 2px solid {{ colors.primary.default.color }};
+    border: 2px solid {{ colors.on_primary.default.color }};
 }
 button:active {
     background-color: rgba(0, 0, 0, 0.97);
@@ -23,17 +24,42 @@ button:active {
 
 /* Labels & Headerbars */
 label {
-    color: {{ colors.primary.default.color }};
-    background-color: transparent
+    color: {{ colors.source_color.default.color }};
+    background-color: #00000000;
 }
 headerbar {
-    color: {{ colors.primary.default.color }};
-    background-color: rgba(0, 0, 0, 0.85)
+    color: {{ colors.source_color.default.color }};
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* App entries */
 element {
     padding: 6px 10px;
     border-radius: 8px;
-    color: {{ colors.secondary.default.color }};
+    color: {{ colors.source_color.default.color }};
+}
+
+textview,
+textview text {
+    background-color: #00000000;
+    background-image: none;
+    border: 1px solid {{ colors.source_color.default.color }};
+    border-radius: 8px;
+}
+
+textview,
+textview.view,
+textview text,
+textview.view text {
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    color: {{ colors.source_color.default.color }};
+}
+
+scrolledwindow,
+scrolledwindow viewport {
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
 }

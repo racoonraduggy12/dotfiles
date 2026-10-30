@@ -1,5 +1,5 @@
 #!/bin/bash
-swww img /home/daniel/Pictures/background-archbtw.png --transition-type none
+swww img /home/daniel/Pictures/background-archbtw.png --transition-type none & haru --feed
 /home/daniel/.config/hypr/arch-movie.sh
 wallpaper="/home/daniel/Pictures/tealbackgrounds/"
 wfile=$(ls /home/daniel/Pictures/tealbackgrounds/ | shuf -n 1)
@@ -25,4 +25,6 @@ if [[ "$wallpaper" == "/home/daniel/Pictures/tealbackgrounds/ring4.png" ]]; then
     source /home/daniel/.config/hypr/colorpallate.sh "$wallpaper"
 fi
 # swww img "$wallpaper" --transition-type wipe
-source /home/daniel/.config/hypr/colorpallate.sh "$wallpaper"
+# source /home/daniel/.config/hypr/colorpallate.sh "$wallpaper"
+source /home/daniel/.config/hypr/colorpallate.sh /home/daniel/Pictures/renders/frame_0180.png
+mpvpaper -o "no-audio loop loop-playlist" HDMI-A-1 /home/daniel/Videos/renders/cyperpunk-ca.mp4 & mpvpaper -o "no-audio loop loop-playlist" DP-1 /home/daniel/Videos/renders/cyperpunkside.mp4 & mpvpaper -o "no-audio loop loop-playlist" DP-2 /home/daniel/Videos/renders/cyperpunkside.mp4

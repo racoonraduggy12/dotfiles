@@ -4,8 +4,8 @@
     "type": "auto",
     "source": "",
     "color": {
-      "1": "#b7ccb7",
-      "2": "#b7ccb7",
+      "1": "#c6c0ff",
+      "2": "#c6c0ff",
       "3": "",
       "4": "",
       "5": "",
@@ -23,7 +23,6 @@
     },
     "printRemaining": true,
     "preserveAspectRatio": false,
-    "recache": false,
     "position": "left",
     "chafa": {
       "fgOnly": false,
@@ -38,7 +37,7 @@
     "hideCursor": false,
     "separator": ": ",
     "color": {
-      "keys": "#b7ccb7",
+      "keys": "#c6c0ff",
       "title": "",
       "output": "",
       "separator": ""

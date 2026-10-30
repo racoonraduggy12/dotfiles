@@ -15,20 +15,20 @@ entry {
     padding: 8px;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: #99d4a2;
+    color: #c6c0ff;
 }
 
 /* App entries */
 element {
     padding: 6px 10px;
     border-radius: 8px;
-    color: #99d4a2;
+    color: #c6c0ff;
 }
 
 /* Teal highlight on selection */
 #entry:selected {
-    background-color: rgba(0,57,24, 0.35); /* teal */
-    color: #b7ccb7;
+    background-color: rgba(46,41,95, 0.35); /* teal */
+    color: #c8c3dc;
 
 
 /* Optional: icon spacing */

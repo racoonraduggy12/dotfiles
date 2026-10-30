@@ -1,0 +1,8 @@
+hl.config({
+    general = {
+        col = {
+            active_border   = { colors = {"rgba({{ colors.source_color.default.color[1:] }}ee)", "rgba({{ colors.secondary.default.color[1:] }}ee)"}, angle = 45 },
+            inactive_border = "rgba({{ colors.on_primary.default.color[1:] }}aa)",
+        }
+    }
+})

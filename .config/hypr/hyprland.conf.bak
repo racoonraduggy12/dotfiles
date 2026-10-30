@@ -357,18 +357,26 @@ workspace = 5,grid,monitor:HDMI-A-1,layout:dwindle
 # windowrule = no_focus_fallback=True,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
 
 #set widnow transperency
-windowrule = opacity 0.50 override 0.50, match:fullscreen false
-windowrule = opacity 0.5 override 0.5, match:class org.kde.dolphin
-windowrule = opacity 0.5 override 0.5, match:class org.kde.kate
-windowrule = float 1, match:class kitty, size 1100 600, move 100 100, opacity 1.0 override
-windowrule = opacity 1.0, match:class firefox
-windowrule = opacity 1.0, match:class com.interversehq.qView
-windowrule = opacity 1.0, match:class blender, float 0
-windowrule = float 0, match:class xdg-desktop-portal-gtk
-windowrule = opacity 1.0, match:class Tor Browser
+windowrule = opacity 0.65 override 0.65, match:fullscreen false #check
+windowrule = opacity 0.5 override 0.5, match:class org.kde.dolphin #check
+windowrule = opacity 0.5 override 0.5, match:class org.kde.kate #check
+windowrule = float 1, match:class kitty, size 1100 600, move 100 100, opacity 1.0 override 1.0 #check
+windowrule = opacity 1.0, match:class firefox #check
+windowrule = opacity 1.0, match:class com.interversehq.qView #check
+windowrule = opacity 1.0, match:class blender, float 0 #check
+windowrule = float 0, match:class xdg-desktop-portal-gtk #check
+windowrule = opacity 1.0, match:class Tor Browser #check
 windowrule = opacity 0.75, match:class discord
+<<<<<<< HEAD
 windowrule = match:title Steam Input On-screen Keyboard, move 320 720
 
+=======
+windowrule = opacity 1.0, match:class gimp #check
+windowrule = opacity 1.0, match:class scriptkitty #check
+windowrule = opacity 1.0, match:class scriptkitty_last #check
+windowrule = match:title Steam Input On-screen Keyboard, move 320 720 #check
+windowrule = match:class steam_app_3655376814, opacity 1.0 #check
+>>>>>>> 4c024ca (Redo hyprland configuration in lua)
 # Set background 2 seconds after startup
-exec-once = exec-once = sleep 1 && ~/.config/hypr/background-reseter.sh && source ~/.config/hypr/background-setter.sh
+exec-once = exec-once = sleep 1 && source ~/.config/hypr/background-setter.sh
 exec-once = fcitx5 -d --replace

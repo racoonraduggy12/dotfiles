@@ -4,8 +4,8 @@
     "type": "auto",
     "source": "",
     "color": {
-      "1": "{{ colors.secondary.default.color }}",
-      "2": "{{ colors.secondary.default.color }}",
+      "1": "{{ colors.primary.default.color }}",
+      "2": "{{ colors.primary.default.color }}",
       "3": "",
       "4": "",
       "5": "",
@@ -23,7 +23,6 @@
     },
     "printRemaining": true,
     "preserveAspectRatio": false,
-    "recache": false,
     "position": "left",
     "chafa": {
       "fgOnly": false,
@@ -38,7 +37,7 @@
     "hideCursor": false,
     "separator": ": ",
     "color": {
-      "keys": "{{ colors.secondary.default.color }}",
+      "keys": "{{ colors.primary.default.color }}",
       "title": "",
       "output": "",
       "separator": ""
