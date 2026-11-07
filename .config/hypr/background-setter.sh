@@ -1,5 +1,5 @@
 #!/bin/bash
-# swww img /home/daniel/Pictures/background-archbtw.png --transition-type none & haru --feed
+swww img /home/daniel/Pictures/background-archbtw.png --transition-type none & haru --feed
 # /home/daniel/.config/hypr/arch-movie.sh
 wallpaper="/home/daniel/Pictures/tealbackgrounds/"
 wfile=$(ls /home/daniel/Pictures/tealbackgrounds/ | shuf -n 1)
