@@ -12,12 +12,12 @@ require("./conf/windowrules")
 
 -- See https://wiki.hypr.land/configuring/core/autostart/
 hl.on("hyprland.start", function ()
-   -- hl.exec_cmd("awww-daemon")
+   hl.exec_cmd("awww-daemon")
    hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
    hl.exec_cmd("fcitx5 -d --replace")
    hl.exec_cmd("sleep 1 && source ~/.config/hypr/background-setter.sh")
-   hl.exec_cmd("sleep 10 && ~/.config/hypr/bkclockslop.py")
-   hl.exec_cmd("sleep 10 && ~/.config/hypr/kitty.sh")
+   hl.exec_cmd("sleep 3 && ~/.config/hypr/bkclockslop.py")
+   hl.exec_cmd("sleep 3 && ~/.config/hypr/kitty.sh")
 --   hl.exec_cmd("WEBKIT_DISABLE_DMABUF_RENDERER=1 wewa --display 0 /home/daniel/Downloads/index.html")
  end)
 
